@@ -1,0 +1,15 @@
+/**{
+	outline:1px solid rgba(255,0,0,0.3);
+}*/
+.lista-sin-estilo{list-style-type: none;}/*--->Para todas las listas sin estilo*/
+.texto-gris-oscuro{color:#9E9E9E;} 
+
+/*CSS de header*/
+.head{background-color: #fff; position: fixed; top:0px;}
+.head img{width: 60%; margin-top: 10px; float: right;}
+.head div nav ul li{display: inline-block; padding:0px 20px 0px 20px; border-right: 1px solid #9E9E9E;}
+.head div nav ul li:last-child{border-right: none;}
+.head div nav ul{padding-top: 50px;}
+
+/*CSS de portada*/
+.portada div:first-child{background-image: url('../img/semilla.jpg'); height: 550px; background-size: cover; }
