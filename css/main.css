@@ -2,14 +2,40 @@
 	outline:1px solid rgba(255,0,0,0.3);
 }*/
 .lista-sin-estilo{list-style-type: none;}/*--->Para todas las listas sin estilo*/
-.texto-gris-oscuro{color:#9E9E9E;} 
+.texto-gris-oscuro{color:#727272;} 
+img{width: 100%;}
 
 /*CSS de header*/
-.head{background-color: #fff; position: fixed; top:0px;}
-.head img{width: 60%; margin-top: 10px; float: right;}
+.head{background-color: #fff; position: fixed; top:0px; margin:0px;}
+.head img{width: 60%; margin-top: 10px; margin-bottom: 10px; float: right;}
 .head div nav ul li{display: inline-block; padding:0px 20px 0px 20px; border-right: 1px solid #9E9E9E;}
 .head div nav ul li:last-child{border-right: none;}
-.head div nav ul{padding-top: 50px;}
+.head div nav ul{padding-top: 30px; padding-bottom: 30px;}
 
 /*CSS de portada*/
+.portada{margin:0px;}
 .portada div:first-child{background-image: url('../img/semilla.jpg'); height: 550px; background-size: cover; }
+.portada p{width: 70%; margin: auto; padding-top: 60px;padding-bottom: 60px; font-size: 15px;}
+
+/*CSS de mision y vision*/
+.mision{margin:0px; padding-top: 60px; padding-bottom: 60px;}
+.mision div img {max-width: 180px;}
+.mision h1{font-weight: 700; margin-top: 10px; margin-bottom: 10px;}
+.mision p{padding-left: 50px; padding-right: 50px; font-size: 15px;}
+
+/*CSS de metodologia*/
+.metodo{margin:0px;}
+.metodo div:first-child{background-image: url('../img/metodo.jpg'); height: 408px; background-size: cover;}
+.metodo div:last-child{background-image: url('../img/fondo.jpg'); padding: 90px 50px 90px 50px;}
+.metodo div:last-child img{max-width: 50px;}
+.metodo div h1{padding-top: 30px; padding-bottom: 30px;}
+.metodo p{font-size: 15px;}
+
+/*CSS de servicios*/
+.servicios{margin:0px; padding-top: 70px; padding-bottom: 70px;}
+.servicios >p {font-size: 15px;  margin:30px 150px 30px 150px;}
+.servicios div ul li div img{max-width: 150px;}
+.servicios div ul li {padding-top: 90px; vertical-align: top; display: inline-block; width:33%;}
+.servicios div ul li h3{padding: 20px 70px 20px 70px; color: #5E8039;}
+.servicios div ul li:nth-child(4) h3{padding-left: 0px; padding-right: 0px;}
+.servicios div ul li p{text-align: justify; padding: 30px; font-size: 15px;}
