@@ -84,4 +84,16 @@ h6{
 	border-radius: 10%;
 }
 .servicios div ul li p{ padding: 30px; font-size: 15px;}
+/*Blog*/
+.main{text-align: center;	background-image: url('../img/fondo2.jpg');}
+.titulo h1{margin-left: 50px;text-align: left;}
+.textos li{list-style-type: none;text-align: left;display: inline-block;}
+.textos img{width: 300px;	height: 200px;margin: auto 20px;margin-bottom: 5px;} 
+.textos ul{height: 350px; display: inline-block;margin-top: 0px;}
+.textos h4, p{margin-top: 0px;text-align: left;position: relative;left: 20px}
+.textos li{list-style-type: none;width: 300px;height: 200px;margin: 40px auto;margin-top: 0px;font-size: 13px;}
+.flechas{width: 130px;height: 130px;}
+#izquierda{position: relative;left: 70px;bottom: 260px;}
+#derecha{position: relative;left: 1090px;bottom: 260px}
+/*termina Blog*/
 
