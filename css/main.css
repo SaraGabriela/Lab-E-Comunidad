@@ -97,4 +97,10 @@ h6{
 #izquierda{position: relative;left: 70px;bottom: 260px;}
 #derecha{position: relative;left: 1090px;bottom: 260px}
 /*termina Blog*/
-
+/*Inicia Contacto*/
+.contacto{text-align: center;background-color: #4B474B;padding: 100px;}
+.col-3{border:1px solid white;height: 200px;}
+.col-3 p{margin-top:20px;margin-right:110px;color: white}
+#iconos{width: 50px;height: 50px;float: right;margin-top: 100px;margin-right: 60px;}
+#icono{height: 30px;width: 50px;float: right;margin-right: 60px;margin-top: 110px;}
+/*Termina  Contacto*/
