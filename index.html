@@ -6,6 +6,12 @@
 	<link rel="stylesheet" href="css/grid-system.css">
 	<link rel="stylesheet" href="css/utilities.css">
 	<link rel="stylesheet" href="css/main.css">
+	<!-- jQuery library (served from Google) -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
 </head>
 <body>
 <div class="container-fluid"><!--Comienza contenedor fluido-->
@@ -178,45 +184,70 @@ cillum  </p></div>
 </div><!--Termina equipo-->
 
 </div><!--Termina contenedor-->
-<section>
-<div class="main" id="blog"><!--Empieza Blog-->
+<section class="text-center blog" id="blog">
+<div><!--Empieza Blog-->
 	<br></br>
 	<div class="titulo"><h1>Blog</h1></div>
 		<div class="textos">
-			<ul>
+			<ul class="carrusel">
+            <li>
 				<img src="img/fotos/img-0400.jpg">
 				<h4>Título del post</h4>
 				<p>01.Ene.2016</p>
-				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
-			</ul>
-			<ul>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam </p>
+			</li>
+			<li>
 				<img src="img/fotos/img-0352.jpg">
 				<h4>Título del post</h4>
 				<p>01.Ene.2016</p>
-				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
-			</ul>
-			<ul>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</li>
+			<li>
 				<img src="img/fotos/img-9246.jpg" >
 				<h4>Título del post</h4>
 				<p>01.Ene.2016</p>
-				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</li>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</li>
+			<li>
+				<img src="img/fotos/img-0400.jpg">
+				<h4>Título del post</h4>
+				<p>01.Ene.2016</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</li>
+			<li>
+				<img src="img/fotos/img-0352.jpg">
+				<h4>Título del post</h4>
+				<p>01.Ene.2016</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</li>
+			<li>
+				<img src="img/fotos/img-9246.jpg" >
+				<h4>Título del post</h4>
+				<p>01.Ene.2016</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</li>
 			</ul>
 		</div>
-			<div class="flechas">
-				<div class="row">
-					<div class="col-6">
-						<img id="izquierda" src="img/iconos/slider/ecomunidad-15.png">
-					</div>
-					<div class="col-6">
-						<img id="derecha" src="img/iconos/slider/ecomunidad-16.png">
-					</div>
-				</div>
-			</div>
 	</div>
 </div><!--Termina blog-->
+<script type="text/javascript">
+	$(document).ready(function(){
+  $('.carrusel').bxSlider({
+    slideWidth: 300,
+    minSlides: 2,
+    maxSlides: 3,
+    moveSlides: 1,
+    slideMargin: 10,
+
+  });
+});
+</script>
 </section>
 <section><!--Inicio Contacto-->
 	<div class="contacto">
