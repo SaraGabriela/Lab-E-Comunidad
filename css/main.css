@@ -6,7 +6,7 @@
 img{width: 100%;}
 
 /*CSS de header*/
-.head{background-color: #fff;position: fixed; width:100%; z-index:1;}
+.head{background-color: #fff;position: fixed; width:100%; z-index:2000;}
 .head img{width: 60%; margin-top: 10px; margin-bottom: 10px;}
 .head div nav ul li{display: inline-block; padding:0px 20px 0px 20px; border-right: 1px solid #9E9E9E;}
 .head div nav ul li a{text-decoration: none; color:#000;}
@@ -64,6 +64,7 @@ img{width: 100%;}
 .equipo{
 	text-align: center;
 	margin-bottom: 40px;
+	margin-top: 80px;
 }
 .equipo div img{
 	width: 200px;
@@ -88,7 +89,7 @@ h6{
 .servicios div ul li p{ padding: 30px; font-size: 15px;}
 /*Blog*/
 .blog {background-image: url('../img/fondo2.jpg');}
-.titulo h1{margin-left: 50px;text-align: left;}
+.titulo h1{margin-left: 50px;text-align: left; display: block;}
 .textos ul li div p:last-child{list-style-type: none;text-align: left;}
 .textos img{width: 300px;	height: 200px;margin: auto 20px;margin-bottom: 5px;} 
 /* .textos ul li {min-height: 350px; margin-top: 0px;}*/
