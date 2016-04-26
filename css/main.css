@@ -40,6 +40,7 @@ img{width: 100%;}
 .servicios div ul li div h3{padding:20px 70px 20px 70px;  color: #5E8039;}
 .servicios div ul li:nth-child(4) div h3{padding-left: 0px; padding-right: 0px;}
 .servicios div ul li div p{ padding: 30px; font-size: 15px;}
+
 /* CSS de proyectos */
 .proyectos{
 	background: #5E8039;
@@ -106,4 +107,3 @@ h6{
 #icono{height: 30px;width: 50px;float: right;margin-right: 60px;margin-top: 110px;}
 /*Termina  Contacto*/
 
-#equipos{top:200px;}
